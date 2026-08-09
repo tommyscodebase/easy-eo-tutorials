@@ -3,7 +3,7 @@
 Code, notebooks and data for the **Easy-EO** video series.
 
 <p align="center">
-  <a href="https://www.youtube.com/@tommys_codebase">
+  <a href="https://www.youtube.com/playlist?list=PLQDjJNQh9NXU">
     <img src="https://img.shields.io/badge/YouTube-Watch%20the%20series-FF0000?logo=youtube&logoColor=white" alt="Watch on YouTube">
   </a>
   <a href="https://pypi.org/project/easy-eo/"><img src="https://img.shields.io/pypi/v/easy-eo.svg" alt="PyPI"></a>
@@ -50,7 +50,7 @@ After creating the conda environment, proceed to install easy-eo
 conda activate eeo-env
 conda install -c conda-forge easy-eo jupyterlab
 
-# easy-eo provides a stack extra, install it via:
+# easy-eo provides a STAC extra, install it via:
 conda install -c conda-forge pystac-client planetary-computer
 # easy-eo provides an xarray extra, install it via:
 conda install -c conda-forge easy-eo xarray rioxarray
@@ -62,7 +62,7 @@ Using pip in a conda environment
 conda activate eeo-env
 pip install easy-eo jupyterlab
 
-# easy-eo provides a stack extra, install it via:
+# easy-eo provides a STAC extra, install it via:
 pip install "easy-eo[stac]"
 # easy-eo provides an xarray extra, install it via:
 pip install "easy-eo[xarray]"
